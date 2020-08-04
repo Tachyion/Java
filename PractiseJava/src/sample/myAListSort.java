@@ -1,6 +1,6 @@
 package sample;
 
-//import java.util.*;
+
 import java.util.List; // List is an Interface
 import java.util.Set; // Set is an Interface
 import java.util.ArrayList; // ArrayList is a Class which implements List interface
