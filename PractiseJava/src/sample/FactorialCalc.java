@@ -2,15 +2,15 @@ package sample;
 
 public class FactorialCalc {
 	
-	public static int fibo(int n) 
+	public static int factorial(int n) 
 	{
-	    System.out.println("Calling fibonacci with input: " + n);
+	    System.out.println("Calling factorial with input: " + n);
 	 
 	    if (n < 2) {
 	        return n;
 	    }
 	 
-	    return n*fibo(n - 1);// + fibo(n - 2);
+	    return n*factorial(n - 1);
      }
 	
 
@@ -18,8 +18,10 @@ public class FactorialCalc {
 	{
 		int f=5;
 	    
-		int res = FactorialCalc.fibo(f);
-		System.out.println(+res);
+		int res = FactorialCalc.factorial(f);
+		System.out.println();
+		System.out.println("Factorial Result : "+res);
  
     }
 }
+
