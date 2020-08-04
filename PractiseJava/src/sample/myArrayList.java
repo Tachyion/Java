@@ -2,6 +2,7 @@ package sample;
 import java.util.*;
 import java.util.List; // List is an Interface
 import java.util.ArrayList; // ArrayList is a Class which implements List interface
+
 // Author : Saravanak1900@gmail.com
 // Program to Remove ** DUPLICATE VALUES **  in List
 // Method 1: Remove Duplicates by Comparing the Values in Array List 
